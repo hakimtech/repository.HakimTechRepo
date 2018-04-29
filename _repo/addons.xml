@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.HakimTechProWizard" name="HakimTech Pro Wizard" version="4.1.0" provider-name="Hakim Technology">
+<addon id="plugin.program.HakimTechProWizard" name="HakimTech Pro Wizard" version="4.1.0" provider-name="Hakim technology">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -10,7 +10,7 @@
   <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
     <summary lang="en">HakimTech Pro Wizard</summary>
-    <description lang="en">HakimTech Pro Wizard allows you to get access to the latest Hakim Technology Custom Builds, Addons ,APKs and Repos.</description>
+    <description lang="en">This wizard is used to install all Hakim Technology media. Miles ahead of the rest.</description>
     <platform>all</platform>
   </extension>
 </addon>
