@@ -1,0 +1,12 @@
+
+name="For YouTube Channel"
+section="no"
+url="https://www.youtube.com/watch?v=IqTrTrUEgc8&feature=youtu.be"
+icon="https://hakimtechnology.com/HakimTech/images/ChannelArt1.jpg"
+fanart="http://hakimtechnology.com/HakimTech/images/fanart.jpg"
+description="YouTube Channel Test"
+
+
+
+
+

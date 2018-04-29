@@ -1,0 +1,27 @@
+﻿name="Hakim Technology Firestick Build 3"
+version="3.1.0"
+url="https://www.dropbox.com/s/lwd1otgnyupy8a7/HakimTechBuildFSv3.zip?dl=1"
+gui="http://hakimtechnology.com/HakimTech/guisettings.zip"
+kodi="17.6"
+theme="http://"
+icon="http://hakimtechnology.com/Wizard2/icon.png"
+fanart="http://hakimtechnology.com/Wizard2/fanart.jpg"
+preview="https://https://www.youtube.com/watch?v=IqTrTrUEgc8&feature=youtu.be"
+adult="no"
+description="Hakim Technology Build v3.1.0"
+
+
+name="Hakim Technology Firestick Build 2.1.0"
+version="2.1.0"
+url="https://www.dropbox.com/s/mq3fb2gxfgapkt4/HakimTechBuildFSV-2.1.0.zip?dl=1"
+gui="http://hakimtechnology.com/HakimTech/guisettings.zip"
+kodi="17.6"
+theme="http://"
+icon="http://hakimtechnology.com/Wizard2/icon.png"
+fanart="http://hakimtechnology.com/Wizard2/fanart.jpg"
+preview="https://https://www.youtube.com/watch?v=IqTrTrUEgc8&feature=youtu.be"
+adult="no"
+description="Hakim Technology Build"
+
+
+

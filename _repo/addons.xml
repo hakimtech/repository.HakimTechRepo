@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.program.HakimTechProWizard" name="HakimTech Pro Wizard" version="4.1.0" provider-name="Hakim Technology">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">HakimTech Pro Wizard</summary>
+    <description lang="en">HakimTech Pro Wizard allows you to get access to the latest Hakim Technology Custom Builds, Addons ,APKs and Repos.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.covenant" version="1.1.8" name="Covenant" provider-name="Covenant">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.covenant.artwork" version="1.0.0" />
+		<import addon="script.covenant.metadata" version="1.0.0" />
+		<import addon="script.module.urlresolver" version="3.0.0" />
+		<import addon="script.module.metahandler" version="1.0.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="covenant.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Covenant</summary>
+		<description lang="en">[I]A New Generation[/I][CR][CR][B]Covenant Movies and TV[/B][CR][CR]This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR][CR]The author does not host any of the content in this addon and takes no responsibility for content found.</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+    			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+		</assets>
+		<news>[B]1.1.3[/B][CR]Code cosmetics</news>
+	</extension>
+</addon>
+
+<addon id="plugin.video.exodus" version="4.1.07" name="Exodus" provider-name="Exodus">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="repository.exodus" />
+		<import addon="script.module.exodus" />
+		<import addon="script.exodus.artwork" version="1.0.0" />
+		<import addon="script.exodus.metadata" version="1.0.0" />
+		<import addon="script.module.urlresolver" version="3.0.0" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.metahandler" version="1.0.0" />
+		<import addon="plugin.program.indigo" />
+		<import addon="repository.xbmchub" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="exodus.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Exodus</summary>
+		<description lang="en">Please visit [COLOR blue]www.tvaddons.co[/COLOR] for Exodus support and assistance! Kindly note that Exodus is not an official part of the media player you are running, and therefore not to be mentioned within official support channels, this addon has nothing to do with the media player itself, nor it’s intended use, it is simply a third party plugin which has been added to your system.</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<description lang="de">Bitte besuche [COLOR blue]www.tvaddons.co[/COLOR] für Unterstützung und Fragen zu Exodus! Beachte dabei, dass Exodus nicht offizieller Teil des Media Players ist den du gerade verwendest und daher nicht von dem offiziellen Support-Kanäle abgedeckt wird, dieses Addon hat nichts zu tun mit dem Media-Player selbst, noch ist es dafür beabsichtigt, es handelt sich hierbei lediglich um ein Drittanbieter-Anwendung die dem System hinzugefügt wurde.</description>
+		<disclaimer lang="de">Die von diesem Addon dargestellten Inhalte werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Content-Anbietern.</disclaimer>
+		<description lang="fr">SVP visitez [COLOR blue]www.tvaddons.co[/COLOR] pour avoir de l'aide sur Exodus. Prenez note qu'Exodus n'est pas une partie intégrante de votre outil de visionnement multimedia et SVP ne le mentionnez pas dans les media sociaux officiels, cet addiciel n'a rien a voir avec votre lecteur multimedia lui même, c'est simplement un addiciel qui a été ajouté à votre système.</description>
+		<disclaimer lang="fr">L'auteur n'héberge pas ou ne distribue pas le contenu qui vous est affiché avec cet addiciel. L'auteur n'a pas d'alliance avec les distributeurs de contenu.</disclaimer>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<forum>https://www.tvaddons.co/forums/</forum>
+		<website>https://www.tvaddons.co/</website>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+    			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+		</assets>
+		<news></news>
+	</extension>
+</addon>
+
+<addon id="plugin.video.hakimtech1" name="HakimTech 1" version="0.0.1" provider-name="Hakim Technology">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.python.koding.aio" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Addon Used For Kodi Addon Development</summary>
+		<description lang="en">Fantastic Addon For Kodi Addon Development</description>
+		<platform>all</platform>
+		<forum>http://www.noobsandnerds.com/support</forum>
+		<website>www.noobsandnerds.com</website>
+		<news></news>
+		<genre>devtools,documentary,howto,kids,livetv,movies,skin,tech,tvshows,spanish,uk,usa</genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
+</addon>
+
+<addon id="plugin.video.HakimTechTV"
+	name="HakimTech TV"
+	version="1.0.1"
+	provider-name="Hakim Technology">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Hakim Technology Entertainment</summary>
+    <description lang="en">Hakim Technolgy Leading The Way In Quality Entertainment</description>
+	<disclaimer lang="en">We Are Not Responsible For The Content Of These Links</disclaimer>
+    <platform>all</platform>
+    <email>hakimtechnologyy2k@gmail.com</email>>
+    <website>http://hakimtechnologyy2k@gmail.com</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.WorldTV"
+       name="[COLOR ghostwhite]WorldTV[/COLOR]"
+       version="1.1"
+       provider-name="WorldTV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">WorldTV</summary>
+    <language>en</language>
+    <description lang="en">WorldTV Official Addon - Supplier of Great Quality and Stable Streams</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
+    <addon id="repository.HakimTechRepo" name="HakimTech Repository" version="4.1.0" provider-name="Hakim Technology">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="HakimTech Repository">
+            <info compressed="false">http://hakimtechnology.com/HakimTech2/_repo/addons.xml</info>
+            <checksum>http://hakimtechnology.com/HakimTech2/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">http://hakimtechnology.com/HakimTech2/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Hakim Technology Repository</summary>
+            <description>This Is A Hakim Technology Repository [CR] Used To Distribute Hakim Technology Wizards, Builds, And Addons.</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+</addons>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <addon id="repository.HakimTechRepo" name="HakimTech Repository" version="4.1.0" provider-name="Hakim Technology">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="HakimTech Repository">
+            <info compressed="false">http://hakimtechnology.com/HakimTech2/_repo/addons.xml</info>
+            <checksum>http://hakimtechnology.com/HakimTech2/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">http://hakimtechnology.com/HakimTech2/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Hakim Technology Repository</summary>
+            <description>This Is A Hakim Technology Repository [CR] Used To Distribute Hakim Technology Wizards, Builds, And Addons.</description>
+            <platform>all</platform>
+    </extension>
+</addon>

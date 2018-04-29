@@ -1,0 +1,8 @@
+
+name="Advanced Settings Name"
+section="no"
+url="http:// URL to /advancedsettings1.xml"
+icon="http://" 
+fanart="http://"
+description="1 Gig Ram Advanced Settings"
+
