@@ -156,9 +156,9 @@
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
         <extension point="xbmc.addon.repository" name="HakimTech Repository">
-            <info compressed="false">http://hakimtechnology.com/HakimTech2/_repo/addons.xml</info>
-            <checksum>http://hakimtechnology.com/HakimTech2/_repo/addons.xml.md5</checksum>
-            <datadir zip="true">http://hakimtechnology.com/HakimTech2/_repo/</datadir>
+            <info compressed="false">http://hakimtechnology.com/HakimTech/_repo/addons.xml</info>
+            <checksum>http://hakimtechnology.com/HakimTech/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">http://hakimtechnology.com/HakimTech/_repo/</datadir>
             <hashes>false</hashes>
         </extension>
         <extension point="xbmc.addon.metadata">

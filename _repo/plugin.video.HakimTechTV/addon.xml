@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.HakimTechTV"
+	name="HakimTech TV"
+	version="1.0.1"
+	provider-name="Hakim Technology">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Hakim Technology Entertainment</summary>
+    <description lang="en">Hakim Technolgy Leading The Way In Quality Entertainment</description>
+	<disclaimer lang="en">We Are Not Responsible For The Content Of These Links</disclaimer>
+    <platform>all</platform>
+    <email>hakimtechnologyy2k@gmail.com</email>>
+    <website>http://hakimtechnologyy2k@gmail.com</website>
+  </extension>
+</addon>
